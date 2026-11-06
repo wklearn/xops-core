@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xops-core"
+version = "0.1.0"
+description = "Local-first human approval pipeline for PUBLIC_POSTS_V1 content candidates"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "XOps Core contributors"}]
+keywords = ["human-in-the-loop", "content-review", "sqlite", "offline"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.scripts]
+xops-core = "xops_core.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["xops_core*"]

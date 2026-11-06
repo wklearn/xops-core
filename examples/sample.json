@@ -1,0 +1,26 @@
+{
+  "version": "PUBLIC_POSTS_V1",
+  "generated_at": "2026-11-05T00:00:00+00:00",
+  "session": "example",
+  "posts": [
+    {
+      "event_id": "example.public-data-update.20261105",
+      "post_id": "demo.zh.20261105.01",
+      "account": "zh",
+      "lang": "zh",
+      "pillar": "public_data",
+      "evidence_stage": "example_only",
+      "priority": "normal",
+      "text": "示例：一项公开数据已更新。请发布前核对原始来源。我的看法：核查比速度更重要。",
+      "alt_texts": [
+        "示例：看到数据更新，先看统计口径和日期。我的看法：数据的可比性很重要。",
+        "示例：别把公告当结果。先检查来源、日期和范围。我的看法：证据边界决定结论边界。"
+      ],
+      "source_name": "Example Domain (placeholder)",
+      "source_tier": "demo",
+      "source_url": "https://example.com/",
+      "source_quote": "DEMO ONLY — not a factual source quote.",
+      "key_numbers": []
+    }
+  ]
+}
